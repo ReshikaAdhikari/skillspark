@@ -1,0 +1,96 @@
+#para{
+    color:red;
+    font-size=20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Gilroy;
+  }
+  .container{
+    width: 60%;
+    background-color: aquamarine;
+  }
+  /* .item{
+    width: 100px;
+    height: 100px;
+    
+     */
+  /* } */
+  .item1,.item3{
+    background-color: aqua;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 100px;
+  }
+  .item2,.item4{
+    background-color: rgb(255, 145, 0);
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 100px;
+  }
+   
+  .item1:hover, .item2:hover, .item3:hover, .item4:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+  a.link{
+    color: aqua;
+  }
+  a.visited{
+    color: blueviolet;
+  }
+  a.hover{
+    color: brown;
+  }
+  a.active{
+    color: blue;
+  }
+  input:focus{
+    background-color: white;
+  }
+  .container :nth-child(even){
+  background-color: blueviolet;
+  }
+  p::first-letter{
+    text-transform: uppercase;
+  }
+  p::first-line{
+  font-size: 20px;
+  }
+  /* h1::before{
+    content:url("../assets/media/IMG_20230917_092802_480.jpg");
+  } */
+  /* h1::after{
+    content:"This is a after content";
+  } */
+  ::selection{
+    color: red;
+    background-color: white;
+  }
+  ::marker{
+    color:blue;
+  }
+  .main-div h1{
+    background-color:orange;
+    color:white;
+  }
+  .main-div > h1{
+    background-color:purple;
+    color:antiquewhite;
+  }
+  h1+h2{
+    background-color:brown;
+    color:pink;
+  }
+  .child-div+ h2{
+    background-color:blue;
+    color:blanchedalmond;
+  }
+  #cascading_order{
+    color:red!important;
+  }
